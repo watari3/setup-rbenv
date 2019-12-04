@@ -7,7 +7,7 @@ function puts_required_apt {
 }
 function puts_required_yum {
     echo "Install the following packages"
-    echo "sudo yum install gcc libssl-dev libreadline-dev autoconf zlib1g-dev make "
+    echo "sudo yum install gcc openssl-devel readline-devel autoconf zlib-devel make"
 }
 
 
