@@ -41,7 +41,7 @@ fi
 if [ -e $RBENV_HOME/plugins/ruby-build ]; then
     echo "Exist $RBENV_HOME/ruby-build"
 else
-    git clone git://github.com/sstephenson/ruby-build.git $RBENV_HOME/plugins/ruby-build
+    git clone https://github.com/rbenv/ruby-build.git $RBENV_HOME/plugins/ruby-build
 fi
 
 if [ -e $RBENV_HOME/plugins/rbenv-update ]; then
